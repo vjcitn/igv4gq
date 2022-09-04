@@ -1,0 +1,22 @@
+Package: igv4gq
+Title: IGV interfaces for genomic QTL
+Version: 0.0.18
+Authors@R:
+    person(given = "Vince",
+           family = "Carey",
+           role = c("aut", "cre"),
+           email = "stvjc@channing.harvard.edu",
+           comment = c(ORCID = "0000-0003-4046-0063"))
+Description: High level functions for interacting with genome-scale variant effects on genomic elements
+Depends: R (>= 4.1.0), tools, utils, dplyr, rtracklayer, GenomeInfoDb, shiny,
+	TxDb.Hsapiens.UCSC.hg19.knownGene,
+	TxDb.Hsapiens.UCSC.hg38.knownGene
+Imports: DBI, RSQLite, methods, tibble, shinytoastr, 
+  AnnotationDbi, GenomicRanges, IRanges,
+  ggplot2, org.Hs.eg.db, igvR (>= 1.17.23), BrowserViz
+Suggests: knitr, BiocStyle, testthat, rmarkdown
+License: Artistic-2.0
+VignetteBuilder: knitr
+biocViews: Genetics, Visualization
+RoxygenNote: 7.2.1
+Encoding: UTF-8
