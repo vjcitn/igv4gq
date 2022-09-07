@@ -1,6 +1,6 @@
 Package: igv4gq
 Title: IGV interfaces for genomic QTL
-Version: 0.0.18
+Version: 0.0.19
 Authors@R:
     person(given = "Vince",
            family = "Carey",
